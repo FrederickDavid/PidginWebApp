@@ -15,7 +15,7 @@ const Hero = () => {
             .<span>P</span>idgin
           </Text> */}
         </LogoHold>
-        <ButtonHold to="/signIn">
+        <ButtonHold to="/UserSignIn">
           <Button1>Login</Button1>
         </ButtonHold>
       </Head>
@@ -37,7 +37,7 @@ const Hero = () => {
             tellus justo. Fusce imperdiet pulvinar efficitur. Morbi dui ante,
             mattis ut convallis a, ultricies a mauris. In malesuada iaculis
           </Head2>
-          <ButtonHold2 to="/signUp">
+          <ButtonHold2 to="/UserSignUp">
             <Button>Get Started</Button>
           </ButtonHold2>
         </Col>

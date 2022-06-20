@@ -7,7 +7,7 @@ const Confirm = () => {
       <Image src={"/image/auth.svg"} />
       {/* <h1>Check your mail to continue</h1> */}
       <Diva>
-        Your Account has been created, Please check your inbox to Verify your
+        Your Account has been created, Please check your mail to Verify your
         Account and continue
       </Diva>
     </Container>
@@ -22,6 +22,14 @@ const Diva = styled.div`
   font-size: 20px;
   color: #004080;
   text-transform: uppercase;
+  @media screen and (max-width: 425px) {
+    width: 90%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: #004080;
+    text-transform: uppercase;
+  }
 `;
 
 const Image = styled.img`
@@ -29,6 +37,12 @@ const Image = styled.img`
   height: 400px;
   margin-bottom: 20px;
   object-fit: contain;
+  @media screen and (max-width: 425px) {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    object-fit: contain;
+  }
 `;
 
 const Container = styled.div`
@@ -38,4 +52,13 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  @media screen and (max-width: 425px) {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 `;

@@ -1,9 +1,9 @@
-import DisplayPidgin from "./PidginComp/DisplayPidgin"
+import DisplayPidgin from "./Frederick/DisplayPidgin";
 
 function App() {
   return (
     <div className="App">
-     <DisplayPidgin/>  
+      <DisplayPidgin />
     </div>
   );
 }
